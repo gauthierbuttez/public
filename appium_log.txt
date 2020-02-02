@@ -1,0 +1,274 @@
+[info][Appium] Welcome to Appium v1.15.1
+[info][Appium] Non-default server args:
+[info][Appium]   allowInsecure: {
+[info][Appium]   }
+[info][Appium]   denyInsecure: {
+[info][Appium]   }
+[info][Appium] Appium REST http interface listener started on 0.0.0.0:4723[info][HTTP] --> POST /wd/hub/session
+[info][HTTP] {"capabilities":{"firstMatch":[{"appium:systemPort":"4724","appium:chromeDriverPort":"4724","appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"6","appium:deviceName":"6S5IN3G","appium:udid":"41492968379078","appium:noReset":"true","appium:appPackage":"com.instagram.android","appium:appActivity":"com.instagram.mainactivity.MainActivity"}]},"desiredCapabilities":{"systemPort":"4724","chromeDriverPort":"4724","automationName":"UiAutomator2","platformName":"Android","platformVersion":"6","deviceName":"6S5IN3G","udid":"41492968379078","noReset":"true","appPackage":"com.instagram.android","appActivity":"com.instagram.mainactivity.MainActivity"}}
+[debug][W3C] Calling AppiumDriver.createSession() with args: [{"systemPort":"4724","chromeDriverPort":"4724","automationName":"UiAutomator2","platformName":"Android","platformVersion":"6","deviceName":"6S5IN3G","udid":"41492968379078","noReset":"true","appPackage":"com.instagram.android","appActivity":"com.instagram.mainactivity.MainActivity"},null,{"firstMatch":[{"appium:systemPort":"4724","appium:chromeDriverPort":"4724","appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"6","appium:deviceName":"6S5IN3G","appium:udid":"41492968379078","appium:noReset":"true","appium:appPackage":"com.instagram.android","appium:appActivity":"com.instagram.mainactivity.MainActivity"}]}]
+[debug][BaseDriver] Event 'newSessionRequested' logged at 1580638169916 (11:09:29 GMT+0100 (Paris, Madrid))
+[info][Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[debug][BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+[debug][BaseDriver] Creating session with W3C capabilities: {
+[debug][BaseDriver]   "alwaysMatch": {
+[debug][BaseDriver]     "platformName": "Android",
+[debug][BaseDriver]     "appium:systemPort": "4724",
+[debug][BaseDriver]     "appium:chromeDriverPort": "4724",
+[debug][BaseDriver]     "appium:automationName": "UiAutomator2",
+[debug][BaseDriver]     "appium:platformVersion": "6",
+[debug][BaseDriver]     "appium:deviceName": "6S5IN3G",
+[debug][BaseDriver]     "appium:udid": "41492968379078",
+[debug][BaseDriver]     "appium:noReset": "true",
+[debug][BaseDriver]     "appium:appPackage": "com.instagram.android",
+[debug][BaseDriver]     "appium:appActivity": "com.instagram.mainactivity.MainActivity"
+[debug][BaseDriver]   },
+[debug][BaseDriver]   "firstMatch": [
+[debug][BaseDriver]     {}
+[debug][BaseDriver]   ]
+[debug][BaseDriver] }
+[warn][BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[warn][BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[warn][BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[warn][BaseDriver] Capability 'systemPort' changed from string ('4724') to integer (4724). This may cause unexpected behavior
+[warn][BaseDriver] Capability 'chromeDriverPort' changed from string ('4724') to integer (4724). This may cause unexpected behavior
+[info][BaseDriver] Session created with session id: 1416ad28-9118-4e12-9306-4ea7cf91a541
+[info][UiAutomator2] Starting 'com.instagram.android' directly on the device[debug][ADB] Connected devices: [{"udid":"0123456789ABCDEF","state":"device"},{"udid":"41492968379078","state":"device"},{"udid":"53519716736397","state":"device"}]
+[info][AndroidDriver] Using device: 41492968379078
+[info][ADB] Using 'adb.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug][ADB] Setting device id to 41492968379078
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell getprop ro.build.version.sdk'
+[debug][ADB] Connected devices: [{"udid":"0123456789ABCDEF","state":"device"},{"udid":"41492968379078","state":"device"},{"udid":"53519716736397","state":"device"}]
+[info][AndroidDriver] Using device: 53519716736397
+[info][ADB] Using 'adb.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug][ADB] Setting device id to 53519716736397
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell getprop ro.build.version.sdk'[debug][ADB] Current device property 'ro.build.version.sdk': 23
+[debug][ADB] Device API level: 23
+[warn][AndroidDriver] No app sent in, not parsing package/activity
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 wait-for-device'
+[debug][ADB] Current device property 'ro.build.version.sdk': 23
+[debug][ADB] Device API level: 23
+[warn][AndroidDriver] No app sent in, not parsing package/activity
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 wait-for-device'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell echo ping'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell echo ping'[debug][AndroidDriver] Pushing settings apk to device...
+[debug][ADB] Getting install status for io.appium.settings
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell dumpsys package io.appium.settings'
+[debug][AndroidDriver] Pushing settings apk to device...
+[debug][ADB] Getting install status for io.appium.settings
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell dumpsys package io.appium.settings'[debug][ADB] 'io.appium.settings' is installed
+[debug][ADB] Getting package info for 'io.appium.settings'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell dumpsys package io.appium.settings'
+[debug][ADB] 'io.appium.settings' is installed
+[debug][ADB] Getting package info for 'io.appium.settings'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell dumpsys package io.appium.settings'[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[info][ADB] Using 'aapt.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'
+[info][ADB] Using 'aapt.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'
+[debug][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+[debug][ADB] There is no need to install/upgrade 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug][ADB] Getting IDs of all 'io.appium.settings' processes
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell 'pgrep --help; echo $?''
+[debug][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+[debug][ADB] There is no need to install/upgrade 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug][ADB] Getting IDs of all 'io.appium.settings' processes
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell 'pgrep --help; echo $?''[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell pgrep -f io\\.appium\\.settings'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell pgrep -f io\\.appium\\.settings'
+[info][HTTP] --> POST /wd/hub/session
+[info][HTTP] {"capabilities":{"firstMatch":[{"appium:systemPort":"4728","appium:chromeDriverPort":"4728","appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"7","appium:deviceName":"20","appium:udid":"0123456789ABCDEF","appium:noReset":"true","appium:appPackage":"com.instagram.android","appium:appActivity":"com.instagram.mainactivity.MainActivity"}]},"desiredCapabilities":{"systemPort":"4728","chromeDriverPort":"4728","automationName":"UiAutomator2","platformName":"Android","platformVersion":"7","deviceName":"20","udid":"0123456789ABCDEF","noReset":"true","appPackage":"com.instagram.android","appActivity":"com.instagram.mainactivity.MainActivity"}}
+[debug][W3C] Calling AppiumDriver.createSession() with args: [{"systemPort":"4728","chromeDriverPort":"4728","automationName":"UiAutomator2","platformName":"Android","platformVersion":"7","deviceName":"20","udid":"0123456789ABCDEF","noReset":"true","appPackage":"com.instagram.android","appActivity":"com.instagram.mainactivity.MainActivity"},null,{"firstMatch":[{"appium:systemPort":"4728","appium:chromeDriverPort":"4728","appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"7","appium:deviceName":"20","appium:udid":"0123456789ABCDEF","appium:noReset":"true","appium:appPackage":"com.instagram.android","appium:appActivity":"com.instagram.mainactivity.MainActivity"}]}]
+[debug][BaseDriver] Event 'newSessionRequested' logged at 1580638171908 (11:09:31 GMT+0100 (Paris, Madrid))
+[info][Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+[debug][BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+[debug][BaseDriver] Creating session with W3C capabilities: {
+[debug][BaseDriver]   "alwaysMatch": {
+[debug][BaseDriver]     "platformName": "Android",
+[debug][BaseDriver]     "appium:systemPort": "4728",
+[debug][BaseDriver]     "appium:chromeDriverPort": "4728",
+[debug][BaseDriver]     "appium:automationName": "UiAutomator2",
+[debug][BaseDriver]     "appium:platformVersion": "7",
+[debug][BaseDriver]     "appium:deviceName": "20",
+[debug][BaseDriver]     "appium:udid": "0123456789ABCDEF",
+[debug][BaseDriver]     "appium:noReset": "true",
+[debug][BaseDriver]     "appium:appPackage": "com.instagram.android",
+[debug][BaseDriver]     "appium:appActivity": "com.instagram.mainactivity.MainActivity"
+[debug][BaseDriver]   },
+[debug][BaseDriver]   "firstMatch": [
+[debug][BaseDriver]     {}
+[debug][BaseDriver]   ]
+[debug][BaseDriver] }
+[warn][BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[warn][BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[warn][BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[warn][BaseDriver] Capability 'systemPort' changed from string ('4728') to integer (4728). This may cause unexpected behavior
+[warn][BaseDriver] Capability 'chromeDriverPort' changed from string ('4728') to integer (4728). This may cause unexpected behavior
+[info][BaseDriver] Session created with session id: 178a3ece-a929-4978-8061-5737fa35aa47
+[info][UiAutomator2] Starting 'com.instagram.android' directly on the device
+[info][ADB] Using 'adb.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[info][AndroidDriver] Retrieving device list
+[debug][ADB] Trying to find a connected android device
+[debug][ADB] Getting connected devices...
+[debug][AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell appops set io.appium.settings android\:mock_location allow'
+[debug][AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell appops set io.appium.settings android\:mock_location allow'[debug][ADB] Connected devices: [{"udid":"0123456789ABCDEF","state":"device"},{"udid":"41492968379078","state":"device"},{"udid":"53519716736397","state":"device"}]
+[info][AndroidDriver] Using device: 0123456789ABCDEF
+[info][ADB] Using 'adb.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug][ADB] Setting device id to 0123456789ABCDEF
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell getprop ro.build.version.sdk'
+[debug][ADB] Current device property 'ro.build.version.sdk': 24
+[debug][ADB] Device API level: 24
+[warn][AndroidDriver] No app sent in, not parsing package/activity
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF wait-for-device'[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell echo ping'[debug][ADB] 'io.appium.settings' is installed
+[debug][ADB] Getting package info for 'io.appium.settings'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell dumpsys package io.appium.settings'[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[info][ADB] Using 'aapt.exe' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'[debug][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+[debug][ADB] There is no need to install/upgrade 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug][ADB] Getting IDs of all 'io.appium.settings' processes
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell 'pgrep --help; echo $?''
+[debug][Logcat] Starting logcat capture
+[debug][Logcat] Starting logcat capture
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell pgrep \^appium\\.settings\$'[debug][ADB] Getting install status for io.appium.uiautomator2.server
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell dumpsys package io.appium.uiautomator2.server'
+[debug][ADB] Getting install status for io.appium.uiautomator2.server
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell dumpsys package io.appium.uiautomator2.server'
+[debug][ADB] 'io.appium.uiautomator2.server' is installed
+[debug][ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell dumpsys package io.appium.uiautomator2.server'
+[debug][ADB] 'io.appium.uiautomator2.server' is installed
+[debug][ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell dumpsys package io.appium.uiautomator2.server'
+[debug][AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell appops set io.appium.settings android\:mock_location allow'[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[debug][Logcat] Starting logcat capture[debug][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+[debug][UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk
+[info][ADB] Using 'apksigner.bat' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat'
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk"]'
+[debug][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+[debug][UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk
+[info][ADB] Using 'apksigner.bat' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat'
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk"]'
+[debug][ADB] Getting install status for io.appium.uiautomator2.server
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell dumpsys package io.appium.uiautomator2.server'[debug][ADB] 'io.appium.uiautomator2.server' is installed
+[debug][ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell dumpsys package io.appium.uiautomator2.server'[info][ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Nino\AppData\Local\Android\Sdk\'?
+[debug][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+[debug][UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk
+[info][ADB] Using 'apksigner.bat' from 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat'
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk"]'[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' is already signed.
+[debug][ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' is already signed.
+[debug][ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell dumpsys package io.appium.uiautomator2.server.test'[debug][ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+[debug][ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' is already signed.
+[debug][ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell dumpsys package io.appium.uiautomator2.server.test'[debug][ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug][ADB] Checking app cert for C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug][ADB] Starting 'C:\Users\Nino\AppData\Local\Android\Sdk\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Nino\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[info][UiAutomator2] Server packages are not going to be (re)installed
+[debug][UiAutomator2] Waiting up to 30000ms for services to be available
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell pm list instrumentation'
+[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[info][UiAutomator2] Server packages are not going to be (re)installed
+[debug][UiAutomator2] Waiting up to 30000ms for services to be available
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell pm list instrumentation'[debug][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug][ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug][ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug][ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug][ADB] 
+[debug][ADB] 'C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[info][UiAutomator2] Server packages are not going to be (re)installed
+[debug][UiAutomator2] Waiting up to 30000ms for services to be available
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell pm list instrumentation'[debug][UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug][UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 4725
+[debug][ADB] Forwarding system: 4725 to device: 6790
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 forward tcp\:4725 tcp\:6790'
+[debug][UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug][UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 4724
+[debug][ADB] Forwarding system: 4724 to device: 6790
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 forward tcp\:4724 tcp\:6790'
+[debug][UiAutomator2] Deleting UiAutomator2 session
+[debug][UiAutomator2] Deleting UiAutomator2 server session
+[debug][WD Proxy] Matched '/' to command name 'deleteSession'
+[warn][UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 shell am force-stop com.instagram.android'
+[debug][UiAutomator2] Deleting UiAutomator2 session
+[debug][UiAutomator2] Deleting UiAutomator2 server session
+[debug][WD Proxy] Matched '/' to command name 'deleteSession'
+[warn][UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 41492968379078 shell am force-stop com.instagram.android'[debug][UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug][UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 4728
+[debug][ADB] Forwarding system: 4728 to device: 6790
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF forward tcp\:4728 tcp\:6790'
+[debug][UiAutomator2] Deleting UiAutomator2 session
+[debug][UiAutomator2] Deleting UiAutomator2 server session
+[debug][WD Proxy] Matched '/' to command name 'deleteSession'
+[warn][UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF shell am force-stop com.instagram.android'[debug][Logcat] Stopping logcat capture
+[debug][ADB] Removing forwarded port socket connection: 4725 
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 53519716736397 forward --remove tcp\:4725'
+[debug][Logcat] Stopping logcat capture[warn][UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 53519716736397 forward --remove tcp\:4725' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1''
+[debug][BaseDriver] Event 'newSessionStarted' logged at 1580638180721 (11:09:40 GMT+0100 (Paris, Madrid))
+[debug][W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 53519716736397 forward tcp\:4725 tcp\:6790' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1'
+[debug][W3C] Error: Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 53519716736397 forward tcp\:4725 tcp\:6790' exited with code 1
+[debug][W3C]     at ChildProcess.proc.on.code (C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+[debug][W3C]     at ChildProcess.emit (events.js:182:13)
+[debug][W3C]     at maybeClose (internal/child_process.js:961:16)
+[debug][W3C]     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+[info][HTTP] <-- POST /wd/hub/session [31m500 10277 ms - 1244
+[info][HTTP] 
+[warn][UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 41492968379078 forward --remove tcp\:4724' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1''
+[debug][BaseDriver] Event 'newSessionStarted' logged at 1580638180751 (11:09:40 GMT+0100 (Paris, Madrid))
+[debug][W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 41492968379078 forward tcp\:4724 tcp\:6790' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1'
+[debug][W3C] Error: Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 41492968379078 forward tcp\:4724 tcp\:6790' exited with code 1
+[debug][W3C]     at ChildProcess.proc.on.code (C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+[debug][W3C]     at ChildProcess.emit (events.js:182:13)
+[debug][W3C]     at maybeClose (internal/child_process.js:961:16)
+[debug][W3C]     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+[info][HTTP] <-- POST /wd/hub/session [31m500 10841 ms - 1244
+[info][HTTP] [debug][Logcat] Stopping logcat capture
+[debug][ADB] Removing forwarded port socket connection: 4728 
+[debug][ADB] Running 'C:\Users\Nino\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 0123456789ABCDEF forward --remove tcp\:4728'[warn][UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 0123456789ABCDEF forward --remove tcp\:4728' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1''
+[debug][BaseDriver] Event 'newSessionStarted' logged at 1580638181671 (11:09:41 GMT+0100 (Paris, Madrid))
+[debug][W3C] Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 0123456789ABCDEF forward tcp\:4728 tcp\:6790' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1'
+[debug][W3C] Error: Command 'C:\\Users\\Nino\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 0123456789ABCDEF forward tcp\:4728 tcp\:6790' exited with code 1
+[debug][W3C]     at ChildProcess.proc.on.code (C:\Users\Nino\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+[debug][W3C]     at ChildProcess.emit (events.js:182:13)
+[debug][W3C]     at maybeClose (internal/child_process.js:961:16)
+[debug][W3C]     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+[info][HTTP] <-- POST /wd/hub/session [31m500 9767 ms - 1248
+[info][HTTP] 
