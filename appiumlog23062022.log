@@ -1,0 +1,380 @@
+    2022-06-23 15:23:09:685 [Appium] Welcome to Appium v1.22.3
+    2022-06-23 15:23:09:685 [Appium] Non-default server args:
+    2022-06-23 15:23:09:685 [Appium]   logFile: appium.log
+    2022-06-23 15:23:09:685 [Appium]   loglevel: error:debug
+    2022-06-23 15:23:09:685 [Appium]   debugLogSpacing: true
+    2022-06-23 15:23:09:685 [Appium]   longStacktrace: true
+    2022-06-23 15:23:09:685 [Appium] Deprecated server args:
+    2022-06-23 15:23:09:685 [Appium]   --async-trace => --default-capabilities
+    2022-06-23 15:23:09:685 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+    2022-06-23 15:23:09:685 [Appium]   longStacktrace: true
+    2022-06-23 15:23:09:732 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+    2022-06-23 15:23:10:124 [HTTP] Request idempotency key: 9b6e5192-305a-4a21-aaff-c98b9d79cea8
+    2022-06-23 15:23:10:156 [HTTP] --> POST /wd/hub/session
+    2022-06-23 15:23:10:156 [HTTP] {"capabilities":{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"9.0","appium:deviceName":"A60Pro_EEA","appium:udid":"A60ProEEA0112572","appium:noReset":"true","appium:systemPort":"4725","appium:chromeDriverPort":"4725","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appium:remoteAppsCacheLimit":0,"appium:waitForQuiescence":"false","appium:appPackage":"com.facebook.katana","appium:appActivity":"com.facebook.katana.LoginActivity"}]},"desiredCapabilities":{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"9.0","deviceName":"A60Pro_EEA","udid":"A60ProEEA0112572","noReset":"true","systemPort":"4725","chromeDriverPort":"4725","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTime...
+    2022-06-23 15:23:10:171 [W3C] Calling AppiumDriver.createSession() with args: [{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"9.0","deviceName":"A60Pro_EEA","udid":"A60ProEEA0112572","noReset":"true","systemPort":"4725","chromeDriverPort":"4725","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTimeout":100000,"uiautomator2ServerInstallTimeout":100000,"remoteAppsCacheLimit":0,"waitForQuiescence":"false","appPackage":"com.facebook.katana","appActivity":"com.facebook.katana.LoginActivity"},null,{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"9.0","appium:deviceName":"A60Pro_EEA","appium:udid":"A60ProEEA0112572","appium:noReset":"true","appium:systemPort":"4725","appium:chromeDriverPort":"4725","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appium:...
+    2022-06-23 15:23:10:171 [BaseDriver] Event 'newSessionRequested' logged at 1655997790171 (17:23:10 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:10:171 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+    2022-06-23 15:23:10:171 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:546 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+    2022-06-23 15:23:10:562 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+    2022-06-23 15:23:10:562 [BaseDriver] Creating session with W3C capabilities: {
+    2022-06-23 15:23:10:562 [BaseDriver]   "alwaysMatch": {
+    2022-06-23 15:23:10:562 [BaseDriver]     "platformName": "Android",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:longStacktrace": true,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:automationName": "UiAutomator2",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:platformVersion": "9.0",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:deviceName": "A60Pro_EEA",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:udid": "A60ProEEA0112572",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:noReset": "true",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:systemPort": "4725",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:chromeDriverPort": "4725",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:appWaitDuration": 100000,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:newCommandTimeout": 0,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:wdaStartupRetries": 4,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:wdaStartupRetryInterval": 20000,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:uiautomator2ServerLaunchTimeout": 100000,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:uiautomator2ServerInstallTimeout": 100000,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:remoteAppsCacheLimit": 0,
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:waitForQuiescence": "false",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:appPackage": "com.facebook.katana",
+    2022-06-23 15:23:10:562 [BaseDriver]     "appium:appActivity": "com.facebook.katana.LoginActivity"
+    2022-06-23 15:23:10:562 [BaseDriver]   },
+    2022-06-23 15:23:10:562 [BaseDriver]   "firstMatch": [
+    2022-06-23 15:23:10:562 [BaseDriver]     {}
+    2022-06-23 15:23:10:562 [BaseDriver]   ]
+    2022-06-23 15:23:10:562 [BaseDriver] }
+    2022-06-23 15:23:10:562 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:562 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:562 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+    2022-06-23 15:23:10:562 [BaseDriver] Capability 'systemPort' changed from string ('4725') to integer (4725). This may cause unexpected behavior
+    2022-06-23 15:23:10:562 [BaseDriver] Capability 'chromeDriverPort' changed from string ('4725') to integer (4725). This may cause unexpected behavior
+    2022-06-23 15:23:10:578 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+    2022-06-23 15:23:10:578 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:578 [BaseDriver]   wdaStartupRetries
+    2022-06-23 15:23:10:578 [BaseDriver]   wdaStartupRetryInterval
+    2022-06-23 15:23:10:578 [BaseDriver]   waitForQuiescence
+    2022-06-23 15:23:10:578 [BaseDriver] Session created with session id: 73f0fa7b-da03-4e40-8833-34739be593ad
+    2022-06-23 15:23:10:578 [UiAutomator2] Starting 'com.facebook.katana' directly on the device
+    2022-06-23 15:23:10:578 [HTTP] Request idempotency key: 5e7b4a85-c882-458d-824b-9bd0110ddb9b
+    2022-06-23 15:23:10:593 [HTTP] --> POST /wd/hub/session
+    2022-06-23 15:23:10:593 [HTTP] {"capabilities":{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"BV5500S_EEA","appium:udid":"E531XE1ZM11300644","appium:noReset":"true","appium:systemPort":"4726","appium:chromeDriverPort":"4726","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appium:remoteAppsCacheLimit":0,"appium:waitForQuiescence":"false","appium:appPackage":"com.facebook.katana","appium:appActivity":"com.facebook.katana.LoginActivity"}]},"desiredCapabilities":{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"10.0","deviceName":"BV5500S_EEA","udid":"E531XE1ZM11300644","noReset":"true","systemPort":"4726","chromeDriverPort":"4726","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaun...
+    2022-06-23 15:23:10:593 [W3C] Calling AppiumDriver.createSession() with args: [{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"10.0","deviceName":"BV5500S_EEA","udid":"E531XE1ZM11300644","noReset":"true","systemPort":"4726","chromeDriverPort":"4726","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTimeout":100000,"uiautomator2ServerInstallTimeout":100000,"remoteAppsCacheLimit":0,"waitForQuiescence":"false","appPackage":"com.facebook.katana","appActivity":"com.facebook.katana.LoginActivity"},null,{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"BV5500S_EEA","appium:udid":"E531XE1ZM11300644","appium:noReset":"true","appium:systemPort":"4726","appium:chromeDriverPort":"4726","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"a...
+    2022-06-23 15:23:10:593 [BaseDriver] Event 'newSessionRequested' logged at 1655997790593 (17:23:10 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:10:598 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+    2022-06-23 15:23:10:598 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:599 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+    2022-06-23 15:23:10:601 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+    2022-06-23 15:23:10:601 [BaseDriver] Creating session with W3C capabilities: {
+    2022-06-23 15:23:10:601 [BaseDriver]   "alwaysMatch": {
+    2022-06-23 15:23:10:602 [BaseDriver]     "platformName": "Android",
+    2022-06-23 15:23:10:602 [BaseDriver]     "appium:longStacktrace": true,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:automationName": "UiAutomator2",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:platformVersion": "10.0",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:deviceName": "BV5500S_EEA",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:udid": "E531XE1ZM11300644",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:noReset": "true",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:systemPort": "4726",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:chromeDriverPort": "4726",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:appWaitDuration": 100000,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:newCommandTimeout": 0,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:wdaStartupRetries": 4,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:wdaStartupRetryInterval": 20000,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:uiautomator2ServerLaunchTimeout": 100000,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:uiautomator2ServerInstallTimeout": 100000,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:remoteAppsCacheLimit": 0,
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:waitForQuiescence": "false",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:appPackage": "com.facebook.katana",
+    2022-06-23 15:23:10:603 [BaseDriver]     "appium:appActivity": "com.facebook.katana.LoginActivity"
+    2022-06-23 15:23:10:603 [BaseDriver]   },
+    2022-06-23 15:23:10:603 [BaseDriver]   "firstMatch": [
+    2022-06-23 15:23:10:603 [BaseDriver]     {}
+    2022-06-23 15:23:10:603 [BaseDriver]   ]
+    2022-06-23 15:23:10:603 [BaseDriver] }
+    2022-06-23 15:23:10:603 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:603 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:603 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+    2022-06-23 15:23:10:603 [BaseDriver] Capability 'systemPort' changed from string ('4726') to integer (4726). This may cause unexpected behavior
+    2022-06-23 15:23:10:603 [BaseDriver] Capability 'chromeDriverPort' changed from string ('4726') to integer (4726). This may cause unexpected behavior
+    2022-06-23 15:23:10:603 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+    2022-06-23 15:23:10:603 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:603 [BaseDriver]   wdaStartupRetries
+    2022-06-23 15:23:10:603 [BaseDriver]   wdaStartupRetryInterval
+    2022-06-23 15:23:10:603 [BaseDriver]   waitForQuiescence
+    2022-06-23 15:23:10:603 [BaseDriver] Session created with session id: 09bfeec5-4bed-44d3-8e57-b5a44cfd4dc8
+    2022-06-23 15:23:10:603 [UiAutomator2] Starting 'com.facebook.katana' directly on the device
+    2022-06-23 15:23:10:618 [HTTP] Request idempotency key: cb84cf30-5b8d-469e-bf34-16631e2d759e
+    2022-06-23 15:23:10:618 [HTTP] --> POST /wd/hub/session
+    2022-06-23 15:23:10:618 [HTTP] {"capabilities":{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"BV5500S_EEA","appium:udid":"E531XE1ZM11302266","appium:noReset":"true","appium:systemPort":"4727","appium:chromeDriverPort":"4727","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appium:remoteAppsCacheLimit":0,"appium:waitForQuiescence":"false","appium:appPackage":"com.facebook.katana","appium:appActivity":"com.facebook.katana.LoginActivity"}]},"desiredCapabilities":{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"10.0","deviceName":"BV5500S_EEA","udid":"E531XE1ZM11302266","noReset":"true","systemPort":"4727","chromeDriverPort":"4727","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaun...
+    2022-06-23 15:23:10:618 [W3C] Calling AppiumDriver.createSession() with args: [{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"10.0","deviceName":"BV5500S_EEA","udid":"E531XE1ZM11302266","noReset":"true","systemPort":"4727","chromeDriverPort":"4727","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTimeout":100000,"uiautomator2ServerInstallTimeout":100000,"remoteAppsCacheLimit":0,"waitForQuiescence":"false","appPackage":"com.facebook.katana","appActivity":"com.facebook.katana.LoginActivity"},null,{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"BV5500S_EEA","appium:udid":"E531XE1ZM11302266","appium:noReset":"true","appium:systemPort":"4727","appium:chromeDriverPort":"4727","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"a...
+    2022-06-23 15:23:10:618 [BaseDriver] Event 'newSessionRequested' logged at 1655997790618 (17:23:10 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:10:618 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+    2022-06-23 15:23:10:618 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:618 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+    2022-06-23 15:23:10:634 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+    2022-06-23 15:23:10:634 [BaseDriver] Creating session with W3C capabilities: {
+    2022-06-23 15:23:10:634 [BaseDriver]   "alwaysMatch": {
+    2022-06-23 15:23:10:634 [BaseDriver]     "platformName": "Android",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:longStacktrace": true,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:automationName": "UiAutomator2",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:platformVersion": "10.0",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:deviceName": "BV5500S_EEA",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:udid": "E531XE1ZM11302266",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:noReset": "true",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:systemPort": "4727",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:chromeDriverPort": "4727",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:appWaitDuration": 100000,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:newCommandTimeout": 0,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:wdaStartupRetries": 4,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:wdaStartupRetryInterval": 20000,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:uiautomator2ServerLaunchTimeout": 100000,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:uiautomator2ServerInstallTimeout": 100000,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:remoteAppsCacheLimit": 0,
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:waitForQuiescence": "false",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:appPackage": "com.facebook.katana",
+    2022-06-23 15:23:10:634 [BaseDriver]     "appium:appActivity": "com.facebook.katana.LoginActivity"
+    2022-06-23 15:23:10:634 [BaseDriver]   },
+    2022-06-23 15:23:10:634 [BaseDriver]   "firstMatch": [
+    2022-06-23 15:23:10:634 [BaseDriver]     {}
+    2022-06-23 15:23:10:634 [BaseDriver]   ]
+    2022-06-23 15:23:10:634 [BaseDriver] }
+    2022-06-23 15:23:10:634 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:634 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:650 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+    2022-06-23 15:23:10:650 [BaseDriver] Capability 'systemPort' changed from string ('4727') to integer (4727). This may cause unexpected behavior
+    2022-06-23 15:23:10:650 [BaseDriver] Capability 'chromeDriverPort' changed from string ('4727') to integer (4727). This may cause unexpected behavior
+    2022-06-23 15:23:10:650 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+    2022-06-23 15:23:10:650 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:650 [BaseDriver]   wdaStartupRetries
+    2022-06-23 15:23:10:650 [BaseDriver]   wdaStartupRetryInterval
+    2022-06-23 15:23:10:650 [BaseDriver]   waitForQuiescence
+    2022-06-23 15:23:10:650 [BaseDriver] Session created with session id: 8959846e-a521-4c13-afe4-6d9a66131c80
+    2022-06-23 15:23:10:650 [UiAutomator2] Starting 'com.facebook.katana' directly on the device
+    2022-06-23 15:23:10:650 [HTTP] Request idempotency key: 61d3de2e-4355-408f-9caf-f75d2ea1bbbb
+    2022-06-23 15:23:10:665 [HTTP] --> POST /wd/hub/session
+    2022-06-23 15:23:10:665 [HTTP] {"capabilities":{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"9.0","appium:deviceName":"C16_Pro_EEA","appium:udid":"OUKIC16PRO37851 ","appium:noReset":"true","appium:systemPort":"4728","appium:chromeDriverPort":"4728","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appium:remoteAppsCacheLimit":0,"appium:waitForQuiescence":"false","appium:appPackage":"com.facebook.katana","appium:appActivity":"com.facebook.katana.LoginActivity"}]},"desiredCapabilities":{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"9.0","deviceName":"C16_Pro_EEA","udid":"OUKIC16PRO37851 ","noReset":"true","systemPort":"4728","chromeDriverPort":"4728","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTi...
+    2022-06-23 15:23:10:665 [W3C] Calling AppiumDriver.createSession() with args: [{"automationName":"UiAutomator2","platformName":"Android","platformVersion":"9.0","deviceName":"C16_Pro_EEA","udid":"OUKIC16PRO37851 ","noReset":"true","systemPort":"4728","chromeDriverPort":"4728","appWaitDuration":100000,"newCommandTimeout":0,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"uiautomator2ServerLaunchTimeout":100000,"uiautomator2ServerInstallTimeout":100000,"remoteAppsCacheLimit":0,"waitForQuiescence":"false","appPackage":"com.facebook.katana","appActivity":"com.facebook.katana.LoginActivity"},null,{"firstMatch":[{"appium:automationName":"UiAutomator2","platformName":"Android","appium:platformVersion":"9.0","appium:deviceName":"C16_Pro_EEA","appium:udid":"OUKIC16PRO37851 ","appium:noReset":"true","appium:systemPort":"4728","appium:chromeDriverPort":"4728","appium:appWaitDuration":100000,"appium:newCommandTimeout":0,"appium:wdaStartupRetries":4,"appium:wdaStartupRetryInterval":20000,"appium:uiautomator2ServerLaunchTimeout":100000,"appium:uiautomator2ServerInstallTimeout":100000,"appiu...
+    2022-06-23 15:23:10:665 [BaseDriver] Event 'newSessionRequested' logged at 1655997790665 (17:23:10 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:10:665 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+    2022-06-23 15:23:10:665 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:665 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+    2022-06-23 15:23:10:665 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+    2022-06-23 15:23:10:665 [BaseDriver] Creating session with W3C capabilities: {
+    2022-06-23 15:23:10:665 [BaseDriver]   "alwaysMatch": {
+    2022-06-23 15:23:10:665 [BaseDriver]     "platformName": "Android",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:longStacktrace": true,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:automationName": "UiAutomator2",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:platformVersion": "9.0",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:deviceName": "C16_Pro_EEA",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:udid": "OUKIC16PRO37851 ",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:noReset": "true",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:systemPort": "4728",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:chromeDriverPort": "4728",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:appWaitDuration": 100000,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:newCommandTimeout": 0,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:wdaStartupRetries": 4,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:wdaStartupRetryInterval": 20000,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:uiautomator2ServerLaunchTimeout": 100000,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:uiautomator2ServerInstallTimeout": 100000,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:remoteAppsCacheLimit": 0,
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:waitForQuiescence": "false",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:appPackage": "com.facebook.katana",
+    2022-06-23 15:23:10:665 [BaseDriver]     "appium:appActivity": "com.facebook.katana.LoginActivity"
+    2022-06-23 15:23:10:665 [BaseDriver]   },
+    2022-06-23 15:23:10:665 [BaseDriver]   "firstMatch": [
+    2022-06-23 15:23:10:665 [BaseDriver]     {}
+    2022-06-23 15:23:10:665 [BaseDriver]   ]
+    2022-06-23 15:23:10:665 [BaseDriver] }
+    2022-06-23 15:23:10:681 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:681 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+    2022-06-23 15:23:10:681 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+    2022-06-23 15:23:10:681 [BaseDriver] Capability 'systemPort' changed from string ('4728') to integer (4728). This may cause unexpected behavior
+    2022-06-23 15:23:10:681 [BaseDriver] Capability 'chromeDriverPort' changed from string ('4728') to integer (4728). This may cause unexpected behavior
+    2022-06-23 15:23:10:681 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+    2022-06-23 15:23:10:681 [BaseDriver]   longStacktrace
+    2022-06-23 15:23:10:681 [BaseDriver]   wdaStartupRetries
+    2022-06-23 15:23:10:681 [BaseDriver]   wdaStartupRetryInterval
+    2022-06-23 15:23:10:681 [BaseDriver]   waitForQuiescence
+    2022-06-23 15:23:10:681 [BaseDriver] Session created with session id: 30f72af0-8790-4b03-a414-24351bccbfa3
+    2022-06-23 15:23:10:681 [UiAutomator2] Starting 'com.facebook.katana' directly on the device
+    2022-06-23 15:23:10:728 [ADB] Found 1 'build-tools' folders under 'C:\Users\gauth\AppData\Local\Android' (newest first):
+    2022-06-23 15:23:10:728 [ADB]     C:/Users/gauth/AppData/Local/Android/build-tools/28.0.3
+    2022-06-23 15:23:10:728 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:728 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:743 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:743 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:743 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:759 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:759 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:759 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:806 [AndroidDriver] Retrieving device list
+    2022-06-23 15:23:10:806 [ADB] Trying to find a connected android device
+    2022-06-23 15:23:10:806 [ADB] Getting connected devices
+    2022-06-23 15:23:10:806 [AndroidDriver] Retrieving device list
+    2022-06-23 15:23:10:821 [ADB] Trying to find a connected android device
+    2022-06-23 15:23:10:821 [ADB] Getting connected devices
+    2022-06-23 15:23:10:837 [AndroidDriver] Retrieving device list
+    2022-06-23 15:23:10:837 [ADB] Trying to find a connected android device
+    2022-06-23 15:23:10:837 [ADB] Getting connected devices
+    2022-06-23 15:23:10:853 [AndroidDriver] Retrieving device list
+    2022-06-23 15:23:10:853 [ADB] Trying to find a connected android device
+    2022-06-23 15:23:10:853 [ADB] Getting connected devices
+    2022-06-23 15:23:10:868 [ADB] Connected devices: [{"udid":"A60ProEEA0112572","state":"device"},{"udid":"E531XE1ZM11300644","state":"device"},{"udid":"E531XE1ZM11302266","state":"device"},{"udid":"OUKIC16PRO37851","state":"device"}]
+    2022-06-23 15:23:10:868 [AndroidDriver] Using device: E531XE1ZM11302266
+    2022-06-23 15:23:10:868 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:868 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:884 [ADB] Connected devices: [{"udid":"A60ProEEA0112572","state":"device"},{"udid":"E531XE1ZM11300644","state":"device"},{"udid":"E531XE1ZM11302266","state":"device"},{"udid":"OUKIC16PRO37851","state":"device"}]
+    2022-06-23 15:23:10:884 [AndroidDriver] Using device: E531XE1ZM11300644
+    2022-06-23 15:23:10:884 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:884 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:900 [ADB] Connected devices: [{"udid":"A60ProEEA0112572","state":"device"},{"udid":"E531XE1ZM11300644","state":"device"},{"udid":"E531XE1ZM11302266","state":"device"},{"udid":"OUKIC16PRO37851","state":"device"}]
+    2022-06-23 15:23:10:900 [AndroidDriver] Using device: A60ProEEA0112572
+    2022-06-23 15:23:10:900 [ADB] Using 'adb.exe' from 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe'
+    2022-06-23 15:23:10:900 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 start-server'
+    2022-06-23 15:23:10:915 [ADB] Connected devices: [{"udid":"A60ProEEA0112572","state":"device"},{"udid":"E531XE1ZM11300644","state":"device"},{"udid":"E531XE1ZM11302266","state":"device"},{"udid":"OUKIC16PRO37851","state":"device"}]
+    2022-06-23 15:23:10:915 [AndroidDriver] Device OUKIC16PRO37851  was not in the list of connected devices
+    2022-06-23 15:23:10:915 [UiAutomator2] Deleting UiAutomator2 session
+    2022-06-23 15:23:10:931 [BaseDriver] Event 'newSessionStarted' logged at 1655997790931 (17:23:10 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:10:993 [W3C] Encountered internal error running command: Error: Device OUKIC16PRO37851  was not in the list of connected devices
+    2022-06-23 15:23:10:993 [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+    2022-06-23 15:23:10:993 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:231:16)
+    2022-06-23 15:23:10:993 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:26)
+    2022-06-23 15:23:10:993 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+    2022-06-23 15:23:10:993 [W3C]     at AppiumDriver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+    2022-06-23 15:23:11:025 [HTTP] <-- POST /wd/hub/session 500 355 ms - 689
+    2022-06-23 15:23:11:025 [HTTP] 
+    2022-06-23 15:23:11:025 [ADB] Setting device id to E531XE1ZM11302266
+    2022-06-23 15:23:11:030 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell getprop ro.build.version.sdk'
+    2022-06-23 15:23:11:035 [ADB] Setting device id to A60ProEEA0112572
+    2022-06-23 15:23:11:035 [ADB] Setting device id to E531XE1ZM11300644
+    2022-06-23 15:23:11:035 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell getprop ro.build.version.sdk'
+    2022-06-23 15:23:11:035 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell getprop ro.build.version.sdk'
+    2022-06-23 15:23:11:113 [ADB] Current device property 'ro.build.version.sdk': 28
+    2022-06-23 15:23:11:113 [ADB] Getting device platform version
+    2022-06-23 15:23:11:113 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell getprop ro.build.version.release'
+    2022-06-23 15:23:11:129 [ADB] Current device property 'ro.build.version.sdk': 29
+    2022-06-23 15:23:11:129 [ADB] Getting device platform version
+    2022-06-23 15:23:11:129 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell getprop ro.build.version.release'
+    2022-06-23 15:23:11:176 [ADB] Current device property 'ro.build.version.sdk': 29
+    2022-06-23 15:23:11:191 [ADB] Getting device platform version
+    2022-06-23 15:23:11:191 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell getprop ro.build.version.release'
+    2022-06-23 15:23:11:191 [ADB] Current device property 'ro.build.version.release': 9
+    2022-06-23 15:23:11:191 [ADB] Device API level: 28
+    2022-06-23 15:23:11:191 [UiAutomator2] Relaxing hidden api policy
+    2022-06-23 15:23:11:207 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+    2022-06-23 15:23:11:222 [ADB] Current device property 'ro.build.version.release': 10
+    2022-06-23 15:23:11:222 [ADB] Device API level: 29
+    2022-06-23 15:23:11:238 [UiAutomator2] Relaxing hidden api policy
+    2022-06-23 15:23:11:238 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+    2022-06-23 15:23:11:285 [ADB] Current device property 'ro.build.version.release': 10
+    2022-06-23 15:23:11:285 [ADB] Device API level: 29
+    2022-06-23 15:23:11:285 [UiAutomator2] Relaxing hidden api policy
+    2022-06-23 15:23:11:285 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+    2022-06-23 15:23:11:481 [AndroidDriver] No app sent in, not parsing package/activity
+    2022-06-23 15:23:11:481 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 wait-for-device'
+    2022-06-23 15:23:11:512 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell echo ping'
+    2022-06-23 15:23:11:544 [AndroidDriver] No app sent in, not parsing package/activity
+    2022-06-23 15:23:11:544 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 wait-for-device'
+    2022-06-23 15:23:11:575 [AndroidDriver] Pushing settings apk to device...
+    2022-06-23 15:23:11:575 [ADB] Getting install status for io.appium.settings
+    2022-06-23 15:23:11:575 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:591 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell echo ping'
+    2022-06-23 15:23:11:591 [AndroidDriver] No app sent in, not parsing package/activity
+    2022-06-23 15:23:11:591 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 wait-for-device'
+    2022-06-23 15:23:11:637 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell echo ping'
+    2022-06-23 15:23:11:684 [ADB] 'io.appium.settings' is installed
+    2022-06-23 15:23:11:684 [ADB] Getting package info for 'io.appium.settings'
+    2022-06-23 15:23:11:684 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:684 [AndroidDriver] Pushing settings apk to device...
+    2022-06-23 15:23:11:684 [ADB] Getting install status for io.appium.settings
+    2022-06-23 15:23:11:684 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:700 [AndroidDriver] Pushing settings apk to device...
+    2022-06-23 15:23:11:700 [ADB] Getting install status for io.appium.settings
+    2022-06-23 15:23:11:700 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:825 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+    2022-06-23 15:23:11:825 [ADB] There is no need to install/upgrade 'C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+    2022-06-23 15:23:11:825 [ADB] Getting IDs of all 'io.appium.settings' processes
+    2022-06-23 15:23:11:825 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell 'pgrep --help; echo $?''
+    2022-06-23 15:23:11:841 [ADB] 'io.appium.settings' is installed
+    2022-06-23 15:23:11:841 [ADB] Getting package info for 'io.appium.settings'
+    2022-06-23 15:23:11:841 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:856 [ADB] 'io.appium.settings' is installed
+    2022-06-23 15:23:11:856 [ADB] Getting package info for 'io.appium.settings'
+    2022-06-23 15:23:11:856 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell dumpsys package io.appium.settings'
+    2022-06-23 15:23:11:934 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+    2022-06-23 15:23:11:987 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+    2022-06-23 15:23:12:003 [ADB] There is no need to install/upgrade 'C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+    2022-06-23 15:23:12:003 [ADB] Getting IDs of all 'io.appium.settings' processes
+    2022-06-23 15:23:12:003 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell 'pgrep --help; echo $?''
+    2022-06-23 15:23:12:003 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+    2022-06-23 15:23:12:003 [ADB] There is no need to install/upgrade 'C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+    2022-06-23 15:23:12:003 [ADB] Getting IDs of all 'io.appium.settings' processes
+    2022-06-23 15:23:12:003 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell 'pgrep --help; echo $?''
+    2022-06-23 15:23:12:081 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+    2022-06-23 15:23:12:081 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell appops set io.appium.settings android:mock_location allow'
+    2022-06-23 15:23:12:096 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+    2022-06-23 15:23:12:175 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+    2022-06-23 15:23:12:221 [Logcat] Starting logs capture with command: C:\\Users\\gauth\\AppData\\Local\\Android\\platform-tools\\adb.exe -P 5037 -s A60ProEEA0112572 logcat -v threadtime
+    2022-06-23 15:23:12:301 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+    2022-06-23 15:23:12:301 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell appops set io.appium.settings android:mock_location allow'
+    2022-06-23 15:23:12:317 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 4725
+    2022-06-23 15:23:12:317 [UiAutomator2] UiAutomator2 Server cannot start because the local port #4725 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:12:317 [UiAutomator2] Deleting UiAutomator2 session
+    2022-06-23 15:23:12:317 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell am force-stop com.facebook.katana'
+    2022-06-23 15:23:12:363 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+    2022-06-23 15:23:12:363 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell appops set io.appium.settings android:mock_location allow'
+    2022-06-23 15:23:12:457 [Logcat] Starting logs capture with command: C:\\Users\\gauth\\AppData\\Local\\Android\\platform-tools\\adb.exe -P 5037 -s E531XE1ZM11302266 logcat -v threadtime
+    2022-06-23 15:23:12:567 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 4727
+    2022-06-23 15:23:12:567 [Logcat] Stopping logcat capture
+    2022-06-23 15:23:12:567 [UiAutomator2] UiAutomator2 Server cannot start because the local port #4727 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:12:567 [UiAutomator2] Deleting UiAutomator2 session
+    2022-06-23 15:23:12:567 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell am force-stop com.facebook.katana'
+    2022-06-23 15:23:12:582 [ADB] Removing forwarded port socket connection: 4725 
+    2022-06-23 15:23:12:582 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 forward --remove tcp:4725'
+    2022-06-23 15:23:12:613 [Logcat] Starting logs capture with command: C:\\Users\\gauth\\AppData\\Local\\Android\\platform-tools\\adb.exe -P 5037 -s E531XE1ZM11300644 logcat -v threadtime
+    2022-06-23 15:23:12:645 [UiAutomator2] Restoring hidden api policy to the device default configuration
+    2022-06-23 15:23:12:645 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s A60ProEEA0112572 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+    2022-06-23 15:23:12:770 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 4726
+    2022-06-23 15:23:12:770 [UiAutomator2] UiAutomator2 Server cannot start because the local port #4726 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:12:770 [UiAutomator2] Deleting UiAutomator2 session
+    2022-06-23 15:23:12:785 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell am force-stop com.facebook.katana'
+    2022-06-23 15:23:12:844 [BaseDriver] Event 'newSessionStarted' logged at 1655997792844 (17:23:12 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:12:844 [W3C] Encountered internal error running command: Error: UiAutomator2 Server cannot start because the local port #4725 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:12:844 [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+    2022-06-23 15:23:12:844 [W3C]     at forwardPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:284:16)
+    2022-06-23 15:23:12:844 [W3C]     at AndroidUiautomator2Driver.allocateSystemPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:294:14)
+    2022-06-23 15:23:12:844 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:383:5)
+    2022-06-23 15:23:12:844 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+    2022-06-23 15:23:12:844 [W3C]     at AppiumDriver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+    2022-06-23 15:23:12:844 [HTTP] <-- POST /wd/hub/session 500 2682 ms - 1199
+    2022-06-23 15:23:12:844 [HTTP] 
+    2022-06-23 15:23:13:394 [Logcat] Stopping logcat capture
+    2022-06-23 15:23:13:409 [ADB] Removing forwarded port socket connection: 4726 
+    2022-06-23 15:23:13:409 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 forward --remove tcp:4726'
+    2022-06-23 15:23:13:472 [UiAutomator2] Restoring hidden api policy to the device default configuration
+    2022-06-23 15:23:13:472 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11300644 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+    2022-06-23 15:23:13:503 [Logcat] Stopping logcat capture
+    2022-06-23 15:23:13:503 [ADB] Removing forwarded port socket connection: 4727 
+    2022-06-23 15:23:13:519 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 forward --remove tcp:4727'
+    2022-06-23 15:23:13:566 [UiAutomator2] Restoring hidden api policy to the device default configuration
+    2022-06-23 15:23:13:566 [ADB] Running 'C:\Users\gauth\AppData\Local\Android\platform-tools\adb.exe -P 5037 -s E531XE1ZM11302266 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+    2022-06-23 15:23:13:847 [BaseDriver] Event 'newSessionStarted' logged at 1655997793847 (17:23:13 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:13:847 [W3C] Encountered internal error running command: Error: UiAutomator2 Server cannot start because the local port #4727 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:13:847 [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+    2022-06-23 15:23:13:847 [W3C]     at forwardPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:284:16)
+    2022-06-23 15:23:13:847 [W3C]     at AndroidUiautomator2Driver.allocateSystemPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:294:14)
+    2022-06-23 15:23:13:847 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:383:5)
+    2022-06-23 15:23:13:847 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+    2022-06-23 15:23:13:847 [W3C]     at AppiumDriver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+    2022-06-23 15:23:13:862 [HTTP] <-- POST /wd/hub/session 500 3234 ms - 1199
+    2022-06-23 15:23:13:862 [HTTP] 
+    2022-06-23 15:23:13:867 [BaseDriver] Event 'newSessionStarted' logged at 1655997793867 (17:23:13 GMT+0200 (GMT+02:00))
+    2022-06-23 15:23:13:869 [W3C] Encountered internal error running command: Error: UiAutomator2 Server cannot start because the local port #4726 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones.
+    2022-06-23 15:23:13:869 [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+    2022-06-23 15:23:13:869 [W3C]     at forwardPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:284:16)
+    2022-06-23 15:23:13:870 [W3C]     at AndroidUiautomator2Driver.allocateSystemPort (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:294:14)
+    2022-06-23 15:23:13:870 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:383:5)
+    2022-06-23 15:23:13:870 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+    2022-06-23 15:23:13:871 [W3C]     at AppiumDriver.createSession (C:\Users\gauth\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+    2022-06-23 15:23:13:871 [HTTP] <-- POST /wd/hub/session 500 3277 ms - 1199
+    2022-06-23 15:23:13:871 [HTTP] 
